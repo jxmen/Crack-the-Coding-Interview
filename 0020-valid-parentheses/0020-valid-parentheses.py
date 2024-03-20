@@ -1,5 +1,5 @@
 class Solution:
-    opens = set(list(['(', '[', '{']))
+    opens = set(['(', '[', '{'])
     d = {
         "(": ")",
         "[": "]",
