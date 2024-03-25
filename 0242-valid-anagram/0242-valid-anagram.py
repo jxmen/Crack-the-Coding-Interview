@@ -12,19 +12,9 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        # s와 t를 정렬하고, array를 순회하면서 index에 있는 값이 서로 다르다면 False를 리턴, 모두 일치할 경우 True를 리턴한다.
-
+        # s와 t를 정렬하고, 모두 일치할 경우 True를 리턴한다.
         # O(n log n) * 2 = O(2n log n) = O(n log n)
-        sorted_s = sorted(list(s))
-        sorted_t = sorted(list(t))
-
-        # 최악의 경우 O(n)
-        for idx in range(len(sorted_s)):
-            if sorted_t[idx] != sorted_s[idx]:
-                return False
-
-        # O(n) + O(n log n) = O(n)
-        return True
+        return sorted(s) == sorted(t)
 
 
 from unittest import TestCase
