@@ -13,12 +13,9 @@ class Solution {
 			}
 		}
 
-		for (int key: map.keySet()) {
-			if (map.get(key) == 1) {
-				return key;
-			}
-		}
-
-		throw new IllegalStateException("No single number found");
+		return map.keySet().stream()
+				.filter(key -> map.get(key) == 1)
+				.findFirst()
+				.orElseThrow(IllegalStateException::new);
 	}
 }
