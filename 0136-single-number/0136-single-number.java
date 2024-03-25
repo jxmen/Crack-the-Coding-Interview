@@ -6,11 +6,8 @@ class Solution {
 		Map<Integer, Integer> map = new HashMap<>();
 
 		for (int num: nums) {
-			if (map.get(num) == null) {
-				map.put(num, 1);
-			} else {
-				map.put(num, map.get(num) + 1);
-			}
+            // key가 없을 경우 1로 초기화
+			map.merge(num, 1, Integer::sum);
 		}
 
 		return map.keySet().stream()
