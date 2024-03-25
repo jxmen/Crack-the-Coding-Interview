@@ -14,7 +14,7 @@ class Solution:
 
         # s와 t를 정렬하고, array를 순회하면서 index에 있는 값이 서로 다르다면 False를 리턴, 모두 일치할 경우 True를 리턴한다.
 
-        # O(log n) * 2 = O(log n)
+        # O(n log n) * 2 = O(2n log n) = O(n log n)
         sorted_s = sorted(list(s))
         sorted_t = sorted(list(t))
 
@@ -23,7 +23,7 @@ class Solution:
             if sorted_t[idx] != sorted_s[idx]:
                 return False
 
-        # O(n) + O(log n) = O(n)
+        # O(n) + O(n log n) = O(n)
         return True
 
 
