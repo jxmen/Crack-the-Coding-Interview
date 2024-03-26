@@ -19,17 +19,7 @@ class Solution {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         
         // val이 들어갈 자리를 찾는다. val보다 큰 값을 찾을때까지 반복한다.
-        TreeNode node = root;
-        TreeNode parent = null;
-        while (node != null) {
-            parent = node;
-            if (val > node.val) {
-                node = node.right;
-            } else if (val < node.val) {
-                node = node.left;
-            }
-        }
-        
+        TreeNode parent = this.findParentOf(val, root);
         if (parent == null) {
             root = new TreeNode(val);
             return root;
@@ -42,5 +32,19 @@ class Solution {
         }
         
         return root;
+    }
+    
+    private TreeNode findParentOf(int val, TreeNode node) {
+        TreeNode parent = null;
+        while (node != null) {
+            parent = node;
+            if (val > node.val) {
+                node = node.right;
+            } else if (val < node.val) {
+                node = node.left;
+            }
+        }
+        
+        return parent;
     }
 }
