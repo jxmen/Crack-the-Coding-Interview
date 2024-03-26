@@ -22,11 +22,10 @@ class Solution {
         TreeNode node = root;
         TreeNode parent = null;
         while (node != null) {
+            parent = node;
             if (val > node.val) {
-                parent = node;
                 node = node.right;
             } else if (val < node.val) {
-                parent = node;
                 node = node.left;
             }
         }
