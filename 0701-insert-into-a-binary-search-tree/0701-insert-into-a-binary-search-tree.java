@@ -17,8 +17,6 @@ class Solution {
 
     // 삽입 후에도 BST를 유지하고 root를 리턴한다.
     public TreeNode insertIntoBST(TreeNode root, int val) {
-        
-        // val이 들어갈 자리를 찾는다. val보다 큰 값을 찾을때까지 반복한다.
         TreeNode parent = this.findParentOf(val, root);
         if (parent == null) {
             root = new TreeNode(val);
@@ -34,6 +32,7 @@ class Solution {
         return root;
     }
     
+    // val이 들어갈 위치 할당을 위해 부모를 먼저 찾는다. val보다 큰 값을 찾을때까지 반복한다.
     private TreeNode findParentOf(int val, TreeNode node) {
         TreeNode parent = null;
         while (node != null) {
