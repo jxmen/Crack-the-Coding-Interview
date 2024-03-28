@@ -8,7 +8,8 @@ class Solution:
             start, end = 0, len(row) - 1
 
             if row[0] < 0:
-                count += (n - i) * len(row)
+                other_row_counts = (n-i)
+                count += other_row_counts * len(row)
                 break
 
             while start <= end:
