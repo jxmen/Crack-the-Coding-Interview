@@ -10,14 +10,14 @@ public class TreeNode {
         this.right = right;
     }
     
-    public List<Integer> preOrderNodeFromInts() {
+    public List<Integer> inorderNode() {
         if (this == null) return List.of();
         
         List<Integer> ints = new ArrayList<>();
         
         // left
         List<Integer> leftInts = Optional.ofNullable(this.left)
-            .map(it -> it.preOrderNodeFromInts())
+            .map(it -> it.inorderNode())
             .orElse(List.of());
         ints.addAll(leftInts);
         
@@ -26,7 +26,7 @@ public class TreeNode {
             
         // right
         List<Integer> rightInts = Optional.ofNullable(this.right)
-            .map(it -> it.preOrderNodeFromInts())
+            .map(it -> it.inorderNode())
             .orElse(List.of());
         ints.addAll(rightInts);
         
@@ -37,7 +37,7 @@ public class TreeNode {
 
 class Solution {
     public TreeNode increasingBST(TreeNode root) {
-        List<Integer> ints = root.preOrderNodeFromInts();
+        List<Integer> ints = root.inorderNode();
         List<TreeNode> nodes = ints.stream().map(TreeNode::new).toList();
         
         TreeNode first = nodes.get(0);
