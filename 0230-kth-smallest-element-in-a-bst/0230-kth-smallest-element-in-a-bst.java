@@ -40,7 +40,7 @@ class Solution {
     // k번째로 작은 숫자를 찾아 리턴하라. (k=1일 경우 가장 작은 숫자이다.)
     public int kthSmallest(TreeNode root, int k) {
         
-        // bst의 값들을 정렬된 array로 만들고 k-1 인덱스에 접근하면 되는거 아님?
+        // bst의 값들을 정렬된 array로 만들고 k-1 인덱스에 접근
         List<Integer> preOrderIntegers = root.getPreOrderValues();
         
         return preOrderIntegers.get(k-1);
