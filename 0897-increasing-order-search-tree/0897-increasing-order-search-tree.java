@@ -10,29 +10,6 @@ public class TreeNode {
         this.right = right;
     }
     
-    public List<TreeNode> preOrderNodes() {
-        if (this == null) return List.of();
-        
-        List<TreeNode> nodes = new ArrayList<>();
-        
-        // left
-        List<TreeNode> leftNodes = Optional.ofNullable(this.left)
-            .map(it -> it.preOrderNodes())
-            .orElse(List.of());
-        nodes.addAll(leftNodes);
-        
-        // root
-        nodes.add(this);
-            
-        // right
-        List<TreeNode> rightNodes = Optional.ofNullable(this.right)
-            .map(it -> it.preOrderNodes())
-            .orElse(List.of());
-        nodes.addAll(rightNodes);
-        
-        return nodes;
-    }
-    
     public List<Integer> preOrderNodeFromInts() {
         if (this == null) return List.of();
         
