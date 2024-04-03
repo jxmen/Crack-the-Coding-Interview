@@ -18,14 +18,11 @@ class Solution {
         if (root == null) return 0
         
         // 자식의 문자열 목록들을 모두 받아와서 sum에 합치고 리턴한다.
-        
-        val list = getList(root)
-        return list.map { it -> it.toInt() }
-            .sum()
-        
+        val list = getChildStrs(root)
+        return list.map { it -> it.toInt() }.sum()
     }
     
-    private fun getList(root: TreeNode?): List<String> {
+    private fun getChildStrs(root: TreeNode?): List<String> {
         if (root == null) return emptyList()
         
         if (!root.hasChild()) {
@@ -33,8 +30,8 @@ class Solution {
         }
         
         // 자식들의 리스트를 얻어서 합친다.
-        val left = getList(root.left)
-        val right = getList(root.right)
+        val left = getChildStrs(root.left)
+        val right = getChildStrs(root.right)
         
         return listOf(left, right).flatten()
             .map { it -> root.`val`.toString() + it }
