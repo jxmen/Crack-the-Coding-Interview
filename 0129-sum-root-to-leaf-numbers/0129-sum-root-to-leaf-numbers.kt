@@ -33,7 +33,8 @@ class Solution {
         val left = getChildStrs(root.left)
         val right = getChildStrs(root.right)
         
-        return listOf(left, right).flatten()
+        return listOf(left, right)
+            .flatten()
             .map { it -> root.`val`.toString() + it }
     }
 }
