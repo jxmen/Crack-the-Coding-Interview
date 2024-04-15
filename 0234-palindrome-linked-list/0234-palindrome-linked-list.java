@@ -9,7 +9,44 @@
  * }
  */
 class Solution {
+    // TOOD: 공간복잡도를 O(1) 만큼만 사용하기 위해 two pointer를 활용해야 함
     public boolean isPalindrome(ListNode head) {
+        return isPalindromeHelpTwoPointer(head);
+    }
+    
+    private boolean isPalindromeHelpTwoPointer(ListNode head) {
+        // slow, fast pointer 선언 - slow는 middle까지, slow와 fast를 뒤집어서 비교한다.
+        ListNode slow = head, fast = head, prev, temp;
+        
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        
+        prev = slow;
+        slow = slow.next;
+        prev.next = null;
+        
+        while (slow != null) {
+            temp = slow.next;
+            slow.next = prev;
+            prev = slow;
+            slow = temp;
+        }
+        
+        fast = head;
+        slow = prev;
+        while (slow != null) {
+            if (fast.val != slow.val) return false;
+            slow = slow.next;
+            fast = fast.next;
+        }
+        
+        return true;
+    }
+    
+    private boolean isPalindromeHelpTwoStacks(ListNode head) {
+        // st1 넣는 과정
         Deque<ListNode> stack = new ArrayDeque<>();
         ListNode node = head;
         while (node != null) {
@@ -30,6 +67,7 @@ class Solution {
             stack.pop();
         }
         
+        // 비교
         size = stack.size();
         for (int i = 0; i < size; i++) {
             ListNode st1 = stack.pop();
