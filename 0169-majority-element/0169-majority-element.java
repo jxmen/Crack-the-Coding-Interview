@@ -1,7 +1,7 @@
 class Solution {
 
     public int majorityElement(int[] nums) {
-      // majority element가 있기 때문에 이 알고리즘 풀이가 가능하다.
+      // majority element가 있기 때문에 이 알고리즘 풀이가 가능하다. (Boyer-Moore Majority Vote Algorithm) 과반수 투표 알고리즘
       int majority = 0, count = 0;
 
       for (int num : nums) {
