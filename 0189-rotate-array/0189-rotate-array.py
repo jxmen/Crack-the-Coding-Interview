@@ -10,7 +10,7 @@ class Solution:
             popped = queue.pop()
             queue.appendleft(popped)
         
-        newNums = [] # space O(N)
+        newNums = [] # TODO: space O(1) 만에 해결할 수 있는 방법을 찾아야 한다.
         while len(queue) > 0:
             newNums.append(queue.popleft())
         
