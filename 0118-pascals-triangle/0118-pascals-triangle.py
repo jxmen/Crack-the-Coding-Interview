@@ -5,30 +5,14 @@ class Solution:
         for i in range(numRows):
             before = []
             if len(rows) > 0:
-                before = rows[i-1]
+                before = rows[-1]
 
-            row = self.get_current_row(i+1, before)
+            row = [1] * (i + 1)
+            mid = i // 2 + 1
+            for j in range(1, mid):
+                row[j] = before[j-1] + before[j]
+                row[i-j] = row[j] # 대칭 구조이므로 반대편도 같은 값으로 채워준다. [1,4,1,1,1] -> [1,4,1,4,1]
+            
             rows.append(row)
 
         return rows
-
-        
-    def get_current_row(self, n: int, before: List[int]) -> List[int]:
-        if n == 1:
-            return [1]
-        
-        if n == 2:
-            return [1, 1]
-        
-        row = []
-        for i in range(0, n):
-            if i == 0 or i == n-1:
-                row.append(1)
-                continue
-            
-            row.append(before[i-1] + before[i])
-        
-        return row
-            
-
-        
