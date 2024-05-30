@@ -7,7 +7,7 @@ class Solution:
             if len(rows) > 0:
                 before = rows[-1]
 
-            row = [1] * (i + 1)
+            row = [1] * (i + 1) # 1로 먼저 다 채우고 양 끝쪽이 아닌 값들은 새로 값을 할당한다.
             mid = i // 2 + 1
             for j in range(1, mid):
                 row[j] = before[j-1] + before[j]
