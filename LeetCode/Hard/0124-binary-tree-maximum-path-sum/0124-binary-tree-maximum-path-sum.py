@@ -7,7 +7,7 @@
 
 class Solution:
     cache = {}
-    
+
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         queue = deque([root])
         pathSums = []
@@ -34,18 +34,18 @@ class Solution:
                     queue.append(node.right)
 
         return max(pathSums)
-    
+
     # root를 포함한 경로의 최대값을 리턴한다.
     def maxPathSumFrom(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
-        
+
         if root in self.cache:
-            return cache[root]
+            return self.cache[root]
 
         if not root.left and not root.right:
             return root.val
-        
+
         if not root.right:
             left = self.maxPathSumFrom(root.left)
             return max(root.val, (root.val + left))
@@ -53,7 +53,7 @@ class Solution:
         if not root.left:
             right = self.maxPathSumFrom(root.right)
             return max(root.val, (root.val + right))
-        
+
         left = self.maxPathSumFrom(root.left)
         right = self.maxPathSumFrom(root.right)
 
