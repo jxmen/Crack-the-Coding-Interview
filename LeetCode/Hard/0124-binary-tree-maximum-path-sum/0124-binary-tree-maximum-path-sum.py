@@ -6,6 +6,8 @@
 #         self.right = right
 
 class Solution:
+    cache = {}
+    
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         queue = deque([root])
         pathSums = []
@@ -37,6 +39,9 @@ class Solution:
     def maxPathSumFrom(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
+        
+        if root in self.cache:
+            return cache[root]
 
         if not root.left and not root.right:
             return root.val
@@ -52,10 +57,6 @@ class Solution:
         left = self.maxPathSumFrom(root.left)
         right = self.maxPathSumFrom(root.right)
 
-        return max(
-            root.val,
-            root.val + left,
-            root.val + right,
-        )
-
-    
+        pathSum = max(root.val, root.val + left, root.val + right)
+        self.cache[root] = pathSum
+        return pathSum
