@@ -10,10 +10,10 @@ def solutionHelp(s, count):
 
     sList = list(s)
     x = sList[0]
-    xCount, notXCount = 0, 0
+    xCount, notXCount = 1, 0
     
-    for i in range(len(s)):
-        if xCount != 0 and notXCount != 0 and xCount == notXCount:
+    for i in range(1, len(s)):
+        if xCount == notXCount:
             newS = s[xCount+notXCount:]
             return solutionHelp(newS, count + 1)
         
