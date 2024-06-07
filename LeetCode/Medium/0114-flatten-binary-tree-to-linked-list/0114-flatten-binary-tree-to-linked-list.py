@@ -34,26 +34,22 @@ class Solution:
         
         if not root:
             return
-
-        if not root.left and not root.right:
+        elif not root.left and not root.right:
             return
 
         self.flatten(root.right)
         self.flatten(root.left)
 
-        if root.left is not None and root.right is not None:
-            prevRootRight = root.right
+        if root.left and root.right:
+            tmpRootRight = root.right
             
             # 원래 오른쪽이였던 노드를 재배치한 노드 오른쪽에 붙인다.
             root.right = root.left
-            self.attach(root.right, prevRootRight)
+            self.attach(root.right, tmpRootRight)
             root.left = None
-        
-        if root.right is None and root.left is not None:
+        elif root.left and not root.right:
             root.right = root.left
             root.left = None
-        
-        return
     
     def attach(self, root: Optional[TreeNode], target: Optional[TreeNode]) -> None:
         if root.right is None:
