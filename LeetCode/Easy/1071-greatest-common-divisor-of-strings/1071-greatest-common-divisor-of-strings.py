@@ -4,6 +4,8 @@ str1과 str2가 주어질때, 이 두 문자열을 동시에 나눌 수 있는 �
 나눈다 -> (s = t+t+t...)
 """
 class Solution:
+
+    # TODO: 유클리드 호제법을 이용한 풀이도 같이 구현해보기
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         # 1. 크기가 작은 문자열 하나를 기준으로, 한글자씩 늘려가면서 나눠지는지 확인한다.
         lessLenStr = str1 if len(str1) <= len(str2) else str2
