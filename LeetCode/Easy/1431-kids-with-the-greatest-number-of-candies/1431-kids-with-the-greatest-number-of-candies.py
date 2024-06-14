@@ -6,6 +6,8 @@ length n이 주어질 때 result[i]가 i번째 아이에게 추가 캔디를 주
 
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+        # time O(N)
         maxCandies = max(candies)
         
+        # space O(N)
         return map(lambda x: (x + extraCandies) >= maxCandies, candies)
