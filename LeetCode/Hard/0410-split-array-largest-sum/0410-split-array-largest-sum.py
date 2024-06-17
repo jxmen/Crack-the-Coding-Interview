@@ -4,22 +4,25 @@ class Solution:
 
         while start <= end:
             middle = (start+end) // 2
-            if self.cntNumOfSplits(nums, middle) <= k:
+            if self.getSplitCount(nums, middle) <= k:
                 end = middle - 1
             else:
                 start = middle + 1
 
         return start
-
-    def cntNumOfSplits(self, nums, middle):
-        cntNumOfSplits=1
-        total=0
+    
+    """
+    middle을 넘기지 않는 최대 분할 개수를 리턴한다.
+    """
+    def getSplitCount(self, nums: List[int], middle: int) -> int:
+        splits = 1
+        total = 0
 
         for num in nums:
             if (total + num) <= middle:
                 total += num
             else:
-                cntNumOfSplits += 1
+                splits += 1
                 total = num
 
-        return cntNumOfSplits;
+        return splits
