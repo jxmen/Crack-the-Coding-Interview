@@ -9,25 +9,22 @@ i번째 패키지에 있는 컨베이어 벨트는 weights[i] 만큼의 중량�
 
 ---
 선박의 무게를 얼마로 해야지 최소 용량으로 days안에 모두 해결할 수 있을 것인가?
-
-의문점: 순서대로 처리해야 하는가? [1,2,3,4,5]라면 5부터 처리해도 되는가?
 """
 class Solution:
 
     def shipWithinDays(self, weights: List[int], days: int) -> int:
+        answers = []
         start, end = max(weights), sum(weights)
         
-        answers = []
         while start <= end:
             middle = (start + end) // 2
-            print(middle)
             if self.canShip(weights, middle, days):
                 answers.append(middle)
                 end = middle - 1
             else:
                 start = middle + 1
         
-        return min(answers) if len(answers) > 0 else -1
+        return min(answers)
 
     def canShip(self, weights: List[int], middle: int, days: int) -> bool:
         currentWeightTotal = 0
@@ -39,6 +36,9 @@ class Solution:
                 currentWeightTotal = weight
             else:
                 currentWeightTotal += weight
+            
+            if dayCount > days:
+                return False
         
         return dayCount <= days
 
