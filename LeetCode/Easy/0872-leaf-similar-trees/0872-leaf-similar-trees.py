@@ -14,8 +14,8 @@ class Solution:
         if len(root1Leafs) != len(root2Leafs):
             return False
 
-        for i in range(len(root1Leafs)):
-            if root1Leafs[i].val != root2Leafs[i].val:
+        for root1Leaf, root2Leaf in zip(root1Leafs, root2Leafs):
+            if root1Leaf.val != root2Leaf.val:
                 return False
 
         return True
