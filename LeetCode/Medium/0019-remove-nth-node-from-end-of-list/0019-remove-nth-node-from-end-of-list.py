@@ -18,9 +18,23 @@
 
 class Solution:
 
-    # TODO: one pass 알고리즘으로 변경하기
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        # length를 먼저 구한 후 이동 후 값 교체 (one pass 알고리즘은 아님)
+        slow, fast = head, head
+        for i in range(n):
+            fast = fast.next
+        
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next
+        
+        if not fast:
+            return head.next
+        
+        slow.next = slow.next.next
+        return head
+
+    # length를 먼저 구한 후 이동 후 값 교체 (one pass 알고리즘은 아님)
+    def removeNthFromEnd2(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         length = 0
         node = head
         while node:
