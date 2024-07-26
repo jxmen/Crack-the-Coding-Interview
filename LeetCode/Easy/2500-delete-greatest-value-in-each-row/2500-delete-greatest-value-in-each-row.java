@@ -15,12 +15,9 @@ class Solution {
 				int rowMax = maxHeap.poll(); // 최대값 제거
 				gridMax = Math.max(gridMax, rowMax);
 
-                List<Integer> newRow = new ArrayList<>();
-                while (!maxHeap.isEmpty()) {
-                    newRow.add(maxHeap.poll());
-                }
-                
-				grid[i] = newRow.stream()
+                // 최대값을 제외한 값을 array로 변환 후 다시 할당한다.
+                // !! 스트림만 사용시에는 순서가 보장되지 않으나, 문제 특성상 순서가 보장되지 않아도 된다.
+				grid[i] = maxHeap.stream()
                     .mapToInt(Integer::intValue)
                     .toArray();
 			}
