@@ -15,10 +15,14 @@ class Solution {
 				int rowMax = maxHeap.poll(); // 최대값 제거
 				gridMax = Math.max(gridMax, rowMax);
 
-				grid[i] = maxHeap.stream()
-						.limit(row.length - 1)
-						.mapToInt(Integer::intValue)
-						.toArray();
+                List<Integer> newRow = new ArrayList<>();
+                while (!maxHeap.isEmpty()) {
+                    newRow.add(maxHeap.poll());
+                }
+                
+				grid[i] = newRow.stream()
+                    .mapToInt(Integer::intValue)
+                    .toArray();
 			}
 
 			sum += gridMax;
