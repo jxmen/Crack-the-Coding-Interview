@@ -18,7 +18,7 @@ class Solution {
 				.stream()
 				.reduce(0L, Long::sum);
 
-		// Use modulo operation to ensure the result fits within the int range
+		// 모듈로 연산을 사용하여 결과가 int 범위 내에 들어가도록 합니다.
 		return (int) (result % 1_000_000_007);
 	}
 }
