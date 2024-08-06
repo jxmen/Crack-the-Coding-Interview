@@ -18,9 +18,7 @@ class Solution {
 		Map<Character, Integer> map1 = new HashMap<>();
 		List<Integer> list1 = new ArrayList<>();
 
-		// paper/title의 경우
-		// p - 0, a - 1, e - 2, r - 3 형태로 매핑이 될 것이고
-		// title은 t - 0, i - 1, l - 2, e - 3 형태로 매핑이 될 것이다.
+		// paper/title의 경우 01023/01023 둘의 형태가 같을 경우 true를 리턴하도록 한다.
 		int count = 0;
 		for (char c : s.toCharArray()) {
 			if (!map1.containsKey(c)) {
@@ -31,16 +29,19 @@ class Solution {
 
 		count = 0;
 		Map<Character, Integer> map2 = new HashMap<>();
-		List<Integer> list2 = new ArrayList<>();
-		for (char c : t.toCharArray()) {
+		for (int i = 0; i < t.length(); i++) {
+            char c = t.charAt(i);
 			if (!map2.containsKey(c)) {
 				map2.put(c, count++);
 			}
-			list2.add(map2.get(c));
+            
+            // list2를 만들지 않고, 인덱스를 비교해서 다르다면 바로 false를 리턴한다. 
+			if (list1.get(i) != map2.get(c)) { // O(1)
+                return false;
+            }
 		}
 
-		// 두 리스트가 같은지 확인한다.
-		return list1.equals(list2);
+		return true;
 	}
 
 	public boolean isIsomorphicWithLinkedList(String s, String t) {
