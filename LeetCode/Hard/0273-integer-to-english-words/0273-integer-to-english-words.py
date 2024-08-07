@@ -8,10 +8,7 @@ class Solution:
         6: 'Six',
         7: 'Seven',
         8: 'Eight',
-        9: 'Nine'
-    }
-
-    numDict2 = {
+        9: 'Nine',
         10: 'Ten',
         11: 'Eleven',
         12: 'Twelve',
@@ -42,14 +39,11 @@ class Solution:
             return 'Zero'
 
         if num < 100:
-            if num < 10:
+            if num <= 20:
                 return self.numDict[num]
 
-            if num <= 20:
-                return self.numDict2[num]
-
             string = ''
-            string += self.numDict2[int(str(num)[0] + '0')]
+            string += self.numDict[int(str(num)[0] + '0')]
 
             num = int(str(num)[1])
             if num != 0:
