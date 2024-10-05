@@ -1,14 +1,11 @@
 def solution(numbers, target):
-    def dfs(numbers, target, sum, count):
+    def dfs(numbers, target, count):
         if len(numbers) == 0:
-            if target == sum:
-                return count + 1
-            else:
-                return count
-        
-        plus = dfs(numbers[1:], target, sum + numbers[0], count)
-        minus = dfs(numbers[1:], target, sum - numbers[0], count)
+            return count + 1 if target == 0 else count
+            
+        plus = dfs(numbers[1:], target - numbers[0], count)
+        minus = dfs(numbers[1:], target + numbers[0], count)
         
         return plus + minus
         
-    return dfs(numbers, target, 0, 0)
+    return dfs(numbers, target, 0)
