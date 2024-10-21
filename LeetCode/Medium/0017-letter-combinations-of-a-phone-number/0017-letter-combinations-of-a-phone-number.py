@@ -1,5 +1,36 @@
 class Solution:
+
+    """
+    백트래킹을 사용한 풀이
+    """
     def letterCombinations(self, digits: str) -> List[str]:
+        if not digits:
+            return []
+
+        phone = {
+            "2": "abc", "3": "def", "4": "ghi", "5": "jkl",
+            "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz"
+        }
+
+        def backtrack(index, path):
+            if len(path) == len(digits):
+                combinations.append("".join(path))
+                return
+
+            possible_letters = phone[digits[index]]
+            for letter in possible_letters:
+                path.append(letter)
+                backtrack(index + 1, path)
+                path.pop()
+
+        combinations = []
+        backtrack(0, [])
+        return combinations
+
+    """
+    처음 백트래킹을 사용하지 않고 반복문으로 푼 함수
+    """
+    def letterCombinations2(self, digits: str) -> List[str]:
         d = dict()
         d[2] = 'abc'
         d[3] = 'def'
@@ -30,4 +61,3 @@ class Solution:
             answer = new_answer
                 
         return answer
-        
