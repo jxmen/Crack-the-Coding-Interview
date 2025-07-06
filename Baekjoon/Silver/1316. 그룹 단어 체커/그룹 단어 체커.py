@@ -6,30 +6,23 @@ def is_group_word(word):
     a -> True
     aa -> True
     """
-
-    char_set = set(word[0])
-    p = 0
-    prev = word[0]
-
-    while p < len(word):
-        if word[p] != prev:
-            if word[p] in char_set:
+    if not word:
+        return True
+    
+    seen_chars = set()
+    current_char = word[0]
+    
+    for char in word:
+        if char != current_char:
+            if char in seen_chars:
                 return False
-
-            char_set.add(prev)
-            prev = word[p]
-        
-        p += 1
+            seen_chars.add(current_char)
+            current_char = char
     
     return True
 
 def group_word_count(words):
-    cnt = 0
-    for word in words:
-        if is_group_word(word):
-            cnt += 1
-
-    return cnt
+    return sum(1 for word in words if is_group_word(word))
 
 if __name__ == "__main__":
     n = int(input())
