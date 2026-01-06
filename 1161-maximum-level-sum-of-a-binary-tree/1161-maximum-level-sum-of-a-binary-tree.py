@@ -9,8 +9,6 @@ from collections import deque
 
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
-        sums = []
-        
         # bfs로 각 레벨별 합계를 최대값과 비교하고 갱신
         dq = deque([root])
         current_level = 1
