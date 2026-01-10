@@ -7,14 +7,15 @@ class Solution:
         s = []
         for i in range(len(nums2)):
             num = nums2[i]
-            if not s or nums2[s[-1]] > num:
-                s.append(i) # 인덱스임!!
-            else:
-                t = s.pop()
-                next_greater_map[nums2[t]] = num
-                s.append(i)
+            if s and num > nums2[s[-1]]:
+
+                # 스택이 비거나 값 충족때까지 pop
+                while s and num > nums2[s[-1]]:
+                    t = s.pop()
+                    next_greater_map[nums2[t]] = num
+                
+            s.append(i) # 인덱스임!!
         
-        print(next_greater_map)
         for num in nums1:
             if num not in next_greater_map:
                 r.append(-1)
