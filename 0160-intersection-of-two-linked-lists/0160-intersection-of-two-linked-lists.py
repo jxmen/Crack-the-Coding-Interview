@@ -5,7 +5,25 @@
 #         self.next = None
 
 class Solution:
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode(self, headA, headB):
+        return self.getIntersectionNodeWithTwoPointer(headA, headB)
+
+    # two pointer로 공간복잡도 N -> 1로 개선
+    def getIntersectionNodeWithTwoPointer(self, headA, headB):
+        if not headA or not headB:
+            return None
+
+        pA, pB = headA, headB
+
+        while pA is not pB:
+            # 둘이 교차한다면 len(a) + len(b)는 서로 같다.
+            # 끝에 도달할 경우, 상대의 head로 이동 시 서로 만나게 된다.
+            pA = pA.next if pA else headB
+            pB = pB.next if pB else headA
+
+        return pA
+
+    def getIntersectionNodeWithSet(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         visited_nodes = set()
 
         # a의 next가 none이 될때까지 다 이동시키고 set에 저장한다.
@@ -20,7 +38,6 @@ class Solution:
             if node_b in visited_nodes:
                 return node_b
             
-            visited_nodes.add(node_b)
             node_b = node_b.next
 
         return None
