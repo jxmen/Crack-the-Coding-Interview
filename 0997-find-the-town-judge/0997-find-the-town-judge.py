@@ -1,13 +1,13 @@
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
-        # 단방향 그래프를 만든다. 
-        graph = [[] for _ in range(n+1)]
+        # 단방향 그래프를 만든다 -> 그래프 불필요!!
+        # graph = [[] for _ in range(n+1)]
 
         # in: 들어오는, out: 나가는(방향을 가리키는)
         in_degree, out_degree = [0] * (n+1), [0] * (n+1)
 
         for u, v in trust:
-            graph[u].append(v)
+            # graph[u].append(v)
             out_degree[u] += 1
             in_degree[v] += 1
             
