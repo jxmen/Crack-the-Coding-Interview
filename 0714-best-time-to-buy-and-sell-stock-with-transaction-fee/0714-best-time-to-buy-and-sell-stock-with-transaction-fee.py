@@ -19,4 +19,7 @@ class Solution:
             non[i] = max(selling, non[i-1]) # 팔때, 안살때
             take[i] = max(buying, take[i-1]) # 살때, 안팔때
 
-        return max(non[n-1], take[n-1])
+        # return max(non[n-1], take[n-1])
+
+        # take는 미실현 손익이므로 non 마지막만 확인한다.
+        return non[n-1]
