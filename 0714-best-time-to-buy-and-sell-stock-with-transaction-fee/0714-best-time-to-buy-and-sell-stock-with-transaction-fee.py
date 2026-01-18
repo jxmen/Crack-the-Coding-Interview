@@ -1,5 +1,24 @@
 class Solution:
+
     def maxProfit(self, prices: List[int], fee: int) -> int:
+        n = len(prices)
+
+        # 주식을 안 가질 때 / 가질때 최대 이익 값
+        non = 0
+        take = -prices[0] # 주식을 '샀기' 때문에, 최대 이익은 -로 시작한다.
+
+        for i in range(1, n):
+            now_price = prices[i]
+
+            selling = take + now_price - fee
+            buying = non - now_price
+
+            non = max(selling, non)
+            take = max(buying, take)
+
+        return non
+
+    def maxProfit2(self, prices: List[int], fee: int) -> int:
         n = len(prices)
 
         # 주식을 안 가질 때 / 가질때 최대 이익 값 저장하는 배열
