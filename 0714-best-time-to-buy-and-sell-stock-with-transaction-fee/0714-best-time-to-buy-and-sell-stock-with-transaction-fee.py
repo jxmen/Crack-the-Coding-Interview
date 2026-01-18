@@ -1,5 +1,6 @@
 class Solution:
 
+    # 공간복잡도 O(1)로 최적화
     def maxProfit(self, prices: List[int], fee: int) -> int:
         n = len(prices)
 
