@@ -4,35 +4,23 @@ from collections import deque
 class MyStack:
 
     def __init__(self):
-        self.q1 = deque()
-        self.q2 = deque()
+        self.q = deque() # 하나만 써도 구현 가능하다.
 
     def push(self, x: int) -> None:
-        # 비어있는 큐에 먼저 새 요소를 넣고, 원래 큐에 있던 원소를 이동시킨다.
+        self.q.append(x)
 
-        if not self.q1:
-            self.q1.append(x)
-            while self.q2:
-                self.q1.append(self.q2.popleft())
-        else:
-            self.q2.append(x)
-            while self.q1:
-                self.q2.append(self.q1.popleft())
+        # 기존 요소 재배치
+        for _ in range(len(self.q) - 1):
+            self.q.append(self.q.popleft())
 
     def pop(self) -> int:
-        if self.q1:
-            return self.q1.popleft()
-        else:
-            return self.q2.popleft()
+        return self.q.popleft()
 
     def top(self) -> int:
-        if self.q1:
-            return self.q1[0]
-        else:
-            return self.q2[0]
+        return self.q[0]
 
     def empty(self) -> bool:
-        return not self.q1 and not self.q2
+        return not self.q
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
