@@ -13,15 +13,15 @@ class Solution:
             return 0
 
         num_set = set(nums)
-        ans = 1
+        max_length = 1
 
         for num in num_set:
             if num - 1 not in num_set:
-                count = 1
+                length = 1
                 while num + 1 in num_set:
-                    count += 1
+                    length += 1
                     num += 1
 
-                ans = max(ans, count)
+                max_length = max(max_length, length)
 
-        return ans
+        return max_length
