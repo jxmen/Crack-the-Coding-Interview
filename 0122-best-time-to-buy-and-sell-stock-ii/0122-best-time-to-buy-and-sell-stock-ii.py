@@ -1,6 +1,16 @@
 class Solution:
-    # 변수 2개로 최적화
+
+    # 그리디로 풀기 - 상승할때 무조건 판다
     def maxProfit(self, prices: List[int]) -> int:
+        profit = 0
+        for i in range(1, len(prices)):
+            if prices[i] > prices[i-1]:
+                profit += prices[i] - prices[i-1]
+        
+        return profit
+
+    # 변수 2개로 최적화 - 이전 상태 값만 사용하므로
+    def maxProfit2(self, prices: List[int]) -> int:
         hold = -prices[0]
         cash = 0
 
@@ -10,7 +20,8 @@ class Solution:
         
         return cash
         
-    def maxProfit2(self, prices: List[int]) -> int:
+    # 첫 풀이 - 2차원 DP
+    def maxProfit3(self, prices: List[int]) -> int:
         n = len(prices)
         dp = [[0] * 2 for _ in range(len(prices))]
         dp[0][1] = -prices[0]
