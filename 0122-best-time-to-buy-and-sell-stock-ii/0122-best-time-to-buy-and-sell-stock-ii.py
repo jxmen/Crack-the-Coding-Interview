@@ -1,5 +1,16 @@
 class Solution:
+    # 변수 2개로 최적화
     def maxProfit(self, prices: List[int]) -> int:
+        hold = -prices[0]
+        cash = 0
+
+        for price in prices[1:]:
+            cash = max(cash, hold + price)
+            hold = max(hold, cash - price)
+        
+        return cash
+        
+    def maxProfit2(self, prices: List[int]) -> int:
         n = len(prices)
         dp = [[0] * 2 for _ in range(len(prices))]
         dp[0][1] = -prices[0]
@@ -17,3 +28,4 @@ class Solution:
             dp[i][1] = max(dp[i-1][1], dp[i-1][0] - price)
         
         return dp[n-1][0]
+        
