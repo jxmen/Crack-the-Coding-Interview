@@ -17,6 +17,7 @@ Space to post the algorithm problems I solved
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0541-reverse-string-ii](https://github.com/jxmen/leetcode/tree/main/0541-reverse-string-ii/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/jxmen/leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/jxmen/leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
@@ -32,4 +33,16 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 <!---LeetCode Topics End-->
