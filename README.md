@@ -31,6 +31,7 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
+| [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -48,4 +49,8 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 <!---LeetCode Topics End-->
