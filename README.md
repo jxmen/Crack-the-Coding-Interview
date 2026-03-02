@@ -18,12 +18,14 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
+| [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0541-reverse-string-ii](https://github.com/jxmen/leetcode/tree/main/0541-reverse-string-ii/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/jxmen/leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/jxmen/leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/jxmen/leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -37,6 +39,7 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
+| [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
