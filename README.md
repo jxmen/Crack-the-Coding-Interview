@@ -31,6 +31,7 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
+| [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -53,4 +54,20 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
