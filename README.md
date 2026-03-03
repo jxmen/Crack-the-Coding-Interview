@@ -30,6 +30,7 @@ Space to post the algorithm problems I solved
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/jxmen/leetcode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/jxmen/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
@@ -78,8 +79,13 @@ Space to post the algorithm problems I solved
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/jxmen/leetcode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/jxmen/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0054-spiral-matrix](https://github.com/jxmen/leetcode/tree/main/0054-spiral-matrix/) | Medium |
 <!---LeetCode Topics End-->
