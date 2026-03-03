@@ -33,6 +33,7 @@ Space to post the algorithm problems I solved
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
+| [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -59,19 +60,23 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
 <!---LeetCode Topics End-->
