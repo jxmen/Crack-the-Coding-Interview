@@ -39,6 +39,7 @@ Space to post the algorithm problems I solved
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0130-surrounded-regions](https://github.com/jxmen/leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0303-range-sum-query-immutable](https://github.com/jxmen/leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0500-keyboard-row](https://github.com/jxmen/leetcode/tree/main/0500-keyboard-row/) | Easy |
 | [0542-01-matrix](https://github.com/jxmen/leetcode/tree/main/0542-01-matrix/) | Medium |
@@ -132,4 +133,12 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/jxmen/leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/jxmen/leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 <!---LeetCode Topics End-->
