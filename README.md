@@ -20,6 +20,7 @@ Space to post the algorithm problems I solved
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
+| [0438-find-all-anagrams-in-a-string](https://github.com/jxmen/leetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0500-keyboard-row](https://github.com/jxmen/leetcode/tree/main/0500-keyboard-row/) | Easy |
 | [0541-reverse-string-ii](https://github.com/jxmen/leetcode/tree/main/0541-reverse-string-ii/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/jxmen/leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
@@ -58,6 +59,7 @@ Space to post the algorithm problems I solved
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
+| [0438-find-all-anagrams-in-a-string](https://github.com/jxmen/leetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0500-keyboard-row](https://github.com/jxmen/leetcode/tree/main/0500-keyboard-row/) | Easy |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/jxmen/leetcode/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 ## Bit Manipulation
@@ -73,6 +75,7 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/jxmen/leetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
