@@ -23,6 +23,7 @@ Space to post the algorithm problems I solved
 | [0500-keyboard-row](https://github.com/jxmen/leetcode/tree/main/0500-keyboard-row/) | Easy |
 | [0541-reverse-string-ii](https://github.com/jxmen/leetcode/tree/main/0541-reverse-string-ii/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/jxmen/leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/jxmen/leetcode/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/jxmen/leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -40,6 +41,7 @@ Space to post the algorithm problems I solved
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0500-keyboard-row](https://github.com/jxmen/leetcode/tree/main/0500-keyboard-row/) | Easy |
 | [0542-01-matrix](https://github.com/jxmen/leetcode/tree/main/0542-01-matrix/) | Medium |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/jxmen/leetcode/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
@@ -57,6 +59,7 @@ Space to post the algorithm problems I solved
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0500-keyboard-row](https://github.com/jxmen/leetcode/tree/main/0500-keyboard-row/) | Easy |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/jxmen/leetcode/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
