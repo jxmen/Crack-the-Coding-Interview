@@ -141,4 +141,8 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/jxmen/leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1068-product-sales-analysis-i](https://github.com/jxmen/leetcode/tree/main/1068-product-sales-analysis-i/) | Easy |
 <!---LeetCode Topics End-->
