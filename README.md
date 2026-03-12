@@ -145,4 +145,5 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1068-product-sales-analysis-i](https://github.com/jxmen/leetcode/tree/main/1068-product-sales-analysis-i/) | Easy |
+| [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/jxmen/leetcode/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 <!---LeetCode Topics End-->
