@@ -147,5 +147,6 @@ Space to post the algorithm problems I solved
 | [0197-rising-temperature](https://github.com/jxmen/leetcode/tree/main/0197-rising-temperature/) | Easy |
 | [0577-employee-bonus](https://github.com/jxmen/leetcode/tree/main/0577-employee-bonus/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/jxmen/leetcode/tree/main/1068-product-sales-analysis-i/) | Easy |
+| [1280-students-and-examinations](https://github.com/jxmen/leetcode/tree/main/1280-students-and-examinations/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/jxmen/leetcode/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 <!---LeetCode Topics End-->
