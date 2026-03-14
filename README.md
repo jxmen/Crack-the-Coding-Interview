@@ -18,6 +18,7 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0020-valid-parentheses](https://github.com/jxmen/leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0242-valid-anagram](https://github.com/jxmen/leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
@@ -154,4 +155,8 @@ Space to post the algorithm problems I solved
 | [1068-product-sales-analysis-i](https://github.com/jxmen/leetcode/tree/main/1068-product-sales-analysis-i/) | Easy |
 | [1280-students-and-examinations](https://github.com/jxmen/leetcode/tree/main/1280-students-and-examinations/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/jxmen/leetcode/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/jxmen/leetcode/tree/main/0020-valid-parentheses/) | Easy |
 <!---LeetCode Topics End-->
