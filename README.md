@@ -18,6 +18,7 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0242-valid-anagram](https://github.com/jxmen/leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jxmen/leetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
@@ -59,6 +60,7 @@ Space to post the algorithm problems I solved
 | [0001-two-sum](https://github.com/jxmen/leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/jxmen/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0242-valid-anagram](https://github.com/jxmen/leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
@@ -72,6 +74,7 @@ Space to post the algorithm problems I solved
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0242-valid-anagram](https://github.com/jxmen/leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 ## Sliding Window
