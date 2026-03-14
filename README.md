@@ -34,6 +34,7 @@ Space to post the algorithm problems I solved
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/jxmen/leetcode/tree/main/0001-two-sum/) | Easy |
 | [0054-spiral-matrix](https://github.com/jxmen/leetcode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/jxmen/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
@@ -55,6 +56,7 @@ Space to post the algorithm problems I solved
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/jxmen/leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/jxmen/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
