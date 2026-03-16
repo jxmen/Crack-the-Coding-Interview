@@ -50,6 +50,7 @@ Space to post the algorithm problems I solved
 | [0599-minimum-index-sum-of-two-lists](https://github.com/jxmen/leetcode/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/jxmen/leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
+| [0704-binary-search](https://github.com/jxmen/leetcode/tree/main/0704-binary-search/) | Easy |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -162,4 +163,8 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/jxmen/leetcode/tree/main/0020-valid-parentheses/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/jxmen/leetcode/tree/main/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
