@@ -55,6 +55,7 @@ Space to post the algorithm problems I solved
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/jxmen/leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0118-pascals-triangle](https://github.com/jxmen/leetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0542-01-matrix](https://github.com/jxmen/leetcode/tree/main/0542-01-matrix/) | Medium |
 ## Hash Table
@@ -167,4 +168,12 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0704-binary-search](https://github.com/jxmen/leetcode/tree/main/0704-binary-search/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/jxmen/leetcode/tree/main/0070-climbing-stairs/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/jxmen/leetcode/tree/main/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
