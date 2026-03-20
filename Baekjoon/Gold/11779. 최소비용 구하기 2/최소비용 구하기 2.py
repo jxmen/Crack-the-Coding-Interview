@@ -4,12 +4,10 @@ import heapq
 input = sys.stdin.readline
 
 
-def dijkstra(graph, start, end):
-    n = len(graph)
-
+def dijkstra(graph, n, start, target):
     d = [float('inf')] * (n + 1)
     d[start] = 0
-    prev = [0] * (n + 1)
+    prev = [-1] * (n + 1)
 
     pq = [(0, start)]
     while pq:
@@ -24,14 +22,17 @@ def dijkstra(graph, start, end):
                 prev[next_node] = node
                 heapq.heappush(pq, (new_cost, next_node))
 
-    channel = [end]
-    prev_index = end
-    while prev[prev_index] != 0:
-        channel.append(prev[prev_index])
-        prev_index = prev[prev_index]
+    if prev[target] == -1 and target != start:
+        return []
 
-    channel.reverse()
-    return [d[end], channel]
+    path = [target]
+    index = target
+    while prev[index] != -1:
+        path.append(prev[index])
+        index = prev[index]
+
+    path.reverse()
+    return d[target], path
 
 
 n = int(input())
@@ -41,9 +42,9 @@ for _ in range(m):
     a, b, c = map(int, input().split())
     graph[a].append((b, c))
 
-start, end = map(int, input().split())
+start, target = map(int, input().split())
 
-min_cost, channel = dijkstra(graph, start, end)
+min_cost, path = dijkstra(graph, n, start, target)
 print(min_cost)
-print(len(channel))
-print(' '.join(map(str, channel)))
+print(len(path))
+print(' '.join(map(str, path)))
