@@ -4,25 +4,19 @@ input = sys.stdin.readline
 
 
 def solution(arr, n, m):
-    l, r = 0, 0
+    count = 0
+    l = 0
+    s = 0
 
-    s = arr[0]
-    c = 0
-    while r < n and l < n:
+    for r in range(n):
+        s += arr[r]
+        while s > m and l <= r:
+            s -= arr[l]
+            l += 1
         if s == m:
-            c += 1
+            count += 1
 
-            s -= arr[l]
-            l += 1
-        elif s > m:
-            s -= arr[l]
-            l += 1
-        else:
-            r += 1
-            if r < n:
-                s += arr[r]
-
-    return c
+    return count
 
 
 
