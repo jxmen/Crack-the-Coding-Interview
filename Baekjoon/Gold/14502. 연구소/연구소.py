@@ -1,5 +1,4 @@
 import sys
-import copy
 
 from itertools import combinations
 
@@ -23,7 +22,7 @@ def solution(grid, combo):
 
         return zero_count
 
-    grid = copy.deepcopy(grid)
+    grid = [row[:] for row in grid]
     for x, y in combo:
         grid[x][y] = 1
 
