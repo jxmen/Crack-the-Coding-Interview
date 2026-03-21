@@ -19,15 +19,14 @@ for i in range(1, n + 1):
     if in_degree[i] == 0:
         queue.append(i)
 
-
 answer = []
 while queue:
-    v = queue.pop()
-    answer.append(v)
+    node = queue.pop()
+    answer.append(node)
 
-    for next_v in graph[v]:
-        in_degree[next_v] -= 1
-        if in_degree[next_v] == 0:
-            queue.append(next_v)
+    for next_node in graph[node]:
+        in_degree[next_node] -= 1
+        if in_degree[next_node] == 0:
+            queue.append(next_node)
 
 print(' '.join(map(str, answer)))
