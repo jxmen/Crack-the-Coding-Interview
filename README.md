@@ -11,6 +11,7 @@ Space to post the algorithm problems I solved
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/jxmen/leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0541-reverse-string-ii](https://github.com/jxmen/leetcode/tree/main/0541-reverse-string-ii/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/jxmen/leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/jxmen/leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
@@ -19,6 +20,7 @@ Space to post the algorithm problems I solved
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jxmen/leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/jxmen/leetcode/tree/main/0020-valid-parentheses/) | Easy |
+| [0125-valid-palindrome](https://github.com/jxmen/leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/jxmen/leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/jxmen/leetcode/tree/main/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/jxmen/leetcode/tree/main/0409-longest-palindrome/) | Easy |
