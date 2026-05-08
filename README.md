@@ -100,6 +100,7 @@ Space to post the algorithm problems I solved
 | [0200-number-of-islands](https://github.com/jxmen/leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
+| [0743-network-delay-time](https://github.com/jxmen/leetcode/tree/main/0743-network-delay-time/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -108,6 +109,7 @@ Space to post the algorithm problems I solved
 | [0542-01-matrix](https://github.com/jxmen/leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0695-max-area-of-island](https://github.com/jxmen/leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/jxmen/leetcode/tree/main/0733-flood-fill/) | Easy |
+| [0743-network-delay-time](https://github.com/jxmen/leetcode/tree/main/0743-network-delay-time/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -137,6 +139,7 @@ Space to post the algorithm problems I solved
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/jxmen/leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/jxmen/leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0743-network-delay-time](https://github.com/jxmen/leetcode/tree/main/0743-network-delay-time/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -198,4 +201,12 @@ Space to post the algorithm problems I solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/jxmen/leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/jxmen/leetcode/tree/main/0743-network-delay-time/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/jxmen/leetcode/tree/main/0743-network-delay-time/) | Medium |
 <!---LeetCode Topics End-->
