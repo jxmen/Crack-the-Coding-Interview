@@ -9,11 +9,10 @@ class Solution {
         Deque<Character> stack = new ArrayDeque<>();
         for (char c : s.toCharArray()) {
             if (!map.containsKey(c)) {
-                stack.add(c);
+                stack.addLast(c);
                 continue;
             }
 
-            // TODO:
             if (stack.isEmpty()) return false;
             if (!map.get(c).equals(stack.peekLast())) return false;
 
